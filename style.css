@@ -123,7 +123,8 @@ html {
 #contact {
   position: relative; 
   width: 100%;
-  z-index: 0;
+  z-index: 0;  
+  color: white;
 }
 
 #contact::before{
@@ -133,8 +134,8 @@ html {
   height: 100%;
   z-index: -1;
   opacity: 0.9;
-  background: url("contact.webp") no-repeat center center/cover;
-  }
+  background: url("contact2.jpg") no-repeat center center/cover;
+}
 
 #contact-box {
   display: flex;
@@ -143,26 +144,28 @@ html {
   padding-bottom: 34px;
 }
 
+.form-group input, textarea{
+  background: transparent;
+}
 #contact-box input,
 #contact-box textarea {
   width: 100%;
   padding: 0.5rem;
   border-radius: 9px;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
+  color: white;
 }
 
 #contact-box form {
   padding: 55px;
   width: 40%;
+  font-weight: bolder;
 }
 
 #contact-box label {
-  font-size: 1.3rem;
+  font-size: 1.9rem;
   font-family: "Bree Serif", serif;
 }
-
-
-
 
 /* styling footer section */
 

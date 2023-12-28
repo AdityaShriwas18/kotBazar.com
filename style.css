@@ -54,8 +54,7 @@ html {
 
 #navbar ul li a:hover {
   color: #e0e0e0; 
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff; 
-    box-shadow: 0 0 10px #fff; 
+    text-shadow: 0 0 5px #ded2d2, 0 0 10px #ded2d2, 0 0 15px #ded2d2; 
 }
 
 /* home section */
@@ -73,7 +72,7 @@ html {
 
 #home::before {
   content: "";
-  background: url("frontTailor.jpg") no-repeat center center/cover;
+  background: url("Assets/frontTailor.jpg") no-repeat center center/cover;
   position: absolute;
   height: 100%;
   top: 0px;
@@ -134,7 +133,7 @@ html {
   height: 100%;
   z-index: -1;
   opacity: 0.9;
-  background: url("contact2.jpg") no-repeat center center/cover;
+  background: url("Assets/contact2.jpg") no-repeat center center/cover;
 }
 
 #contact-box {
@@ -225,8 +224,6 @@ footer {
   border: 3px solid brown;
   margin: 20px;
   padding: 0px 30px 30px 30px;
-  /* background: url('img2.jpg') no-repeat center center/cover; */
-  /* color: white; */
 }
 
 #about .tailor-img img{
@@ -277,7 +274,6 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap; 
   flex-wrap: wrap;
-  /* margin: 0 -16px; */
 }
 
 .row h3{
